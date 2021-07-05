@@ -9,7 +9,7 @@ h1{
 .game{
     color: #73C8F0;
 }
-section{
+.flex{
     display: flex;
     align-items: center ;
     padding-top: 50px;
@@ -18,6 +18,13 @@ section{
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
+}
+.membership{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 40px;
+    box-shadow: 5px 5px 12px gray;
 }
 .para{
     text-align: justify;
@@ -29,7 +36,7 @@ section{
     padding: 10px 30px;
     border-radius: 20px;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
 }
 .top-part{
     background-image: url(image/2in1.png);
@@ -38,4 +45,24 @@ section{
 .second-part{
     background-image: url(image/nn.png);
     
+}
+.final-part{
+    background-image: url(image/cn.png);
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+}
+#Free{
+    border-left: 5px solid;
+    border-image: linear-gradient(#73C8F0, #44b6eb);
+    border-image-slice: 9;
+    padd
+
+}
+#pro{
+    border-left: 5px solid;
+    border-image: linear-gradient(#73C8F0, #44b6eb);
+    border-image-slice: 5;
+}
+.mem{
+    padding-left: 150px; 
 }
